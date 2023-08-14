@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loading-screen">
+    <div class="loader"></div>
+  </div> 
+
+<!-- Top navigation -->
+<div class="topnav" id="myTopnav">
+
+  <!-- Centered link -->
+  <div class="topnav-centered">
+    <a href="#home">
+      <img src="top.png" alt="Image" class="active" style="height: 50px;">
+    </a>
+  </div>
+
+  <!-- Left-aligned links (default) -->
+  <a href="live.html">Live</a>
+  <a href="videos.html">videos</a>
+  <a href="music.html">Music</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="updates.html">Updates</a>
+    <a href="social.html">Social</a>
+    <a href="store.html">Store</a>
+  </div>
+ 
+</div>
+<div class="video-container">
+  <video class="video-background" autoplay muted loop style="width: 1580px;height: 500.750;height: 400.750;">
+    <source src="home.mp4" type="video/mp4">
+    <!-- Tambahkan sumber video lainnya jika diperlukan -->
+  </video>
+
+  <div class="video-text">
+    <h1 style="font-family: 'Metal Mania', cursive;width: 670px;">BRING ME THE HORIZON</h1>
+  </div>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+  // Hide the loading screen after the page is loaded
+  document.getElementById("loading-screen").style.display = "none";
+});
+
+</script>
+
+</body>
+
+</html>

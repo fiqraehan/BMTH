@@ -1,0 +1,214 @@
+.music {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.music .div {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1810px;
+    position: relative;
+    width: 1440px;
+}
+
+.music .overlap-group {
+    background-color: #000000;
+    height: 1810px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.music .overlap {
+    height: 481px;
+    left: 122px;
+    position: absolute;
+    top: 251px;
+    width: 394px;
+}
+
+.music .rectangle {
+    height: 394px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 394px;
+}
+
+.music .text-wrapper {
+    color: #ffffff;
+    font-family: "League Gothic-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 362px;
+    width: 370px;
+}
+
+.music .img {
+    height: 394px;
+    left: 566px;
+    object-fit: cover;
+    position: absolute;
+    top: 251px;
+    width: 383px;
+}
+
+.music .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "League Gothic-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 635px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 649px;
+    width: 245px;
+}
+
+.music .overlap-2 {
+    height: 519px;
+    left: 122px;
+    position: absolute;
+    top: 779px;
+    width: 394px;
+}
+
+.music .rectangle-2 {
+    height: 433px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 394px;
+}
+
+.music .NX-GN-UK-ireland {
+    color: #ffffff;
+    font-family: "League Gothic-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 38px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 432px;
+    width: 317px;
+}
+
+.music .overlap-3 {
+    height: 514px;
+    left: 566px;
+    position: absolute;
+    top: 779px;
+    width: 383px;
+}
+
+.music .p {
+    color: #ffffff;
+    font-family: "League Gothic-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 17px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 427px;
+    width: 350px;
+}
+
+.music .image {
+    height: 433px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 383px;
+}
+
+.music .text-wrapper-3 {
+    color: #41e999;
+    font-family: "Metamorphous-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    left: 122px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 53px;
+    width: 303px;
+}
+
+.music .text-wrapper-4 {
+    color: #41e999;
+    font-family: "Metamorphous-Regular", Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    left: 1211px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    top: 63px;
+    width: 83px;
+}
+
+.music .text-wrapper-5 {
+    color: #41e999;
+    font-family: "Metamorphous-Regular", Helvetica;
+    font-size: 48px;
+    font-weight: 400;
+    left: 924px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: fixed;
+    text-align: right;
+    top: 387px;
+    width: 370px;
+}
+/* style.css */
+
+.music .img,
+.music .rectangle-2,
+.music .image {
+    transition: transform 0.3s ease;
+}
+
+.music .text-wrapper,
+.music .text-wrapper-2,
+.music .NX-GN-UK-ireland,
+.music .p {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.music .overlap:hover .rectangle,
+.music .overlap-2:hover .img,
+.music .overlap-2:hover .rectangle-2,
+.music .overlap-3:hover .image {
+    transform: scale(1.1);
+}
+
+.music .overlap:hover .text-wrapper,
+.music .overlap-2:hover .text-wrapper-2,
+.music .overlap-2:hover .NX-GN-UK-ireland,
+.music .overlap-3:hover .p {
+    opacity: 1;
+}
+
+.music .overlap:hover .text-wrapper-2,
+.music .overlap-2:hover .text-wrapper-2 {
+    top: 619px; /* Adjust this value for vertical positioning */
+}

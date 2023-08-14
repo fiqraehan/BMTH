@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .div {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .overlap-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .image-link {
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  .image-link:hover {
+    transform: scale(1.1);
+  }
+  
+  .image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .text-wrapper {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .text-wrapper-2 {
+    font-size: 18px;
+    color: #888;
+  }
+  
